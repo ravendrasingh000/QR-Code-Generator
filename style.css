@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("https://cdn.prod.website-files.com/65dfb8f66dcb78353015d361/65e25f4e31f03fc831120be0_blog-fpo-10.jpg");
+    background-size: cover;
+}
+
+.container{
+    width: 90%;
+    max-width: 400px;
+    padding: 1em;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 7px;
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.2);
+    background-color: white;
+}
+
+.input-section{
+    padding: 1.5em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+
+input{
+    width: 70%;
+    max-width: 60%;
+    height: 2.5em;
+    outline: none;
+    border: none;
+    font-size: 14px;
+    padding-left: 5px;
+    border-radius: 5px;
+    border: 2px solid rgb(126, 10, 235);
+}
+
+button{
+    border: none;
+    outline: none;
+    height: 2.6em;
+    max-width: 6em;
+    text-align: center;
+    padding: 7px;
+    font-weight: 600;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+
+button:active{
+    background-color: rgb(211, 105, 6);
+}
+
+.image-box{
+    margin-top: 1em;
+}
+
+#qrImage{
+    border: 4px solid rgb(8, 189, 235);
+    border-radius: 5px;
+    margin: auto;
+}
