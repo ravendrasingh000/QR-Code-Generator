@@ -7,6 +7,7 @@
 body{
     background-image: url("https://cdn.prod.website-files.com/65dfb8f66dcb78353015d361/65e25f4e31f03fc831120be0_blog-fpo-10.jpg");
     background-size: cover;
+    height: 100vh;
 }
 
 .container{
