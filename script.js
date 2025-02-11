@@ -6,7 +6,7 @@ btn.addEventListener("click",()=> {
     if(input.value == ''){
 
     }else{
-        qrImage.src = 'https://api.qrserver.com/v1/create-qr-code/?size=150x150&data='+ `${input.value}`;
+        qrImage.src = 'https://api.qrserver.com/v1/create-qr-code/?size=150x150&data='+ `${encodeURIComponent(input.value)}`;
         qrImage.style.display = "block";
         input.value = '';
     }
